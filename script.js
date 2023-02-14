@@ -55,8 +55,8 @@ address = `${city}, ${state}, ${zipCode}`
 /*
 let x =3 
 let y="4"
-x= x + Number(y)
-console.log(x)          //returns numerical 7
+x= x + y
+console.log(x)          //returns 34, not 7.  if you add a number and a string, the number is coerced to a string.
 */
 
 
@@ -67,7 +67,7 @@ let statement
 let phrase = "This fact is"
 let fact = false
 statement = `${phrase} ${fact}`
-console.log(statement)          //returns 'This fact is false'
+console.log(statement)          //returns 'This fact is false'. if you add a boolean and a strung, the boolean is coerced to a string
 
 let total
 let x = 10
